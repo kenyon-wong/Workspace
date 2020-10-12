@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<server>
+<key name="task_type" value="ip"/>
+<key name="targets" value="111.8.17.230"/>
+<key name="is_vhost" value="yes"/>
+<key name="isguesspwd" value="no"/>
+<key name="port_strategy" value="user"/>
+<key name="port_strategy_userports" value="1-65535"/>
+<key name="port_speed" value="3"/>
+<key name="port_tcp" value="T"/>
+<key name="port_udp" value="no"/>
+<key name="live" value="no"/>
+<key name="live_icmp" value="no"/>
+<key name="live_udp" value="no"/>
+<key name="live_tcp" value="no"/>
+<key name="scan_level" value="3"/>
+<key name="timeout_plugins" value="40"/>
+<key name="timeout_read" value="5"/>
+<key name="enable_unsafe_plugins" value="no"/>
+<key name="scan_alert" value="no"/>
+<key name="scan_huawei" value="no"/>
+<key name="check_addtional" value="no"/>
+<key name="scan_oracle" value="yes"/>
+<key name="ifdebug" value="no"/>
+<key name="encoding" value="GBK"/>
+<key name="os_match" value="yes"/>
+</server>
+<targets>
+</targets>
+<report/>
+<pwdguess>
+</pwdguess>
+<taskname><![CDATA[ip_scan_989]]></taskname>
+<taskname></taskname>
+<plugin_template_id>0</plugin_template_id>
+<scanpri>3</scanpri>
+</config>
